@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+html {
+    background:url('background.jpg');    
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: max-content;
+}
+
+body {
+    padding: 2ch;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+    text-shadow: 4px 6px 12px #000000;
+    background-color: #000000f0;
+    width: 85%;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: max-content;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+    margin-top: 22pt;
+    margin-bottom: 2ch;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20pt;
+}
+
+i {
+    color: violet;
+}
+
+strong {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: plum;
+    transition: 0.25s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 15%;
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 40%;
+}
+
+li {
+    margin: 12pt auto;
+}
+
+.multi-text {
+    margin: 0 auto;
+    margin-top: 20pt;
+    padding: 10pt;
+    width: 80%;
+    text-align: center;
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8pt;
+}
+
+.section {
+    display: none;
+}
+
+.active-section {
+    display: block;
+}
+
+.icon {
+    display: block;
+    margin: auto;
+    height: 150pt;
+    filter: drop-shadow(4px 6px 12px #000000);
+    border-radius: 50%;
+}
+
+hr {
+    width: 65%;
+}

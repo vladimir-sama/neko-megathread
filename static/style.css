@@ -49,7 +49,7 @@ strong {
 
 a {
     text-decoration: none;
-    color: plum;
+    color: cornflowerblue;
     transition: 0.25s;
 }
 
@@ -79,7 +79,7 @@ li {
     width: 80%;
     text-align: center;
     color: lightgray;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.95);
     border-radius: 8pt;
 }
 

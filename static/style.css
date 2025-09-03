@@ -60,17 +60,30 @@ a:hover {
 
 ol {
     list-style-type: decimal;
-    margin-left: 15%;
+    text-align: left;
+    margin-left: 20%;
 }
 
 ul {
     list-style-type: circle;
-    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+ul hr {
+    max-width: 30%;
 }
 
 li {
     margin: 12pt auto;
 }
+
+.best {
+    list-style-type: '☆ ';
+    color: hotpink;
+}
+
+
 
 .multi-text {
     margin: 0 auto;

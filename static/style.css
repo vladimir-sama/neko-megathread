@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 html {
     background:url('background.jpg');    
@@ -84,16 +85,26 @@ li {
 }
 
 
+.code {
+    font-family: 'JetBrains Mono', monospace;
+    color: lightsteelblue;
+    border-color: rgba(255, 255, 255, 0.35);
+    border-width: 1pt;
+    border-style: solid;
+    padding: 2pt;
+}
 
 .multi-text {
+    font-family: 'JetBrains Mono', monospace;
     margin: 0 auto;
     margin-top: 20pt;
     padding: 10pt;
     width: 80%;
     text-align: center;
-    color: lightgray;
-    background-color: rgba(0, 0, 0, 0.95);
-    border-radius: 8pt;
+    color: lightsteelblue;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 1pt;
+    border-style: solid;
 }
 
 .section {

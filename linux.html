@@ -9,91 +9,96 @@
     </head>
 
     <body>
-        <h1>Linux</h1>
-        <hr>
-        <p>Recommended Linux distros.</p>
-        <div class='list-div'>
+        <canvas id='shader-canvas'></canvas>
+        <div class='ui'>
+            <h1>Linux</h1>
+            <hr>
+            <p>Recommended Linux distros.</p>
+            <div class='list-div'>
+                <ul>
+                    <p>Choosing a Distro</p>
+                    <hr>
+                    <li><a href='https://distrochooser.de/'>DISTRO CHOOSER</a></li>
+                    <li><a href='https://distrowatch.com/'>DistroWatch</a></li>
+                </ul>
+                <ul>
+                    <p>Arch</p>
+                    <hr>
+                    <li><a href='https://artixlinux.org/'>Artix</a></li>
+                    <li><a href='https://cachyos.org/'>CachyOS</a></li>
+                    <li><a href='https://endeavouros.com/'>EndeavourOS</a></li>
+                </ul>
+                <ul>
+                    <p>Debian</p>
+                    <hr>
+                    <li><a href='https://www.devuan.org/'>Devuan</a></li>
+                    <li><a href='https://rhinolinux.org/'>Rhino</a></li>
+                    <li class='best'><a href='https://linuxmint.com/'>Linuxmint</a></li>
+                </ul>
+                <ul>
+                    <p>Fedora</p>
+                    <hr>
+                    <li><a href='https://www.fedoraproject.org/'>Fedora</a></li>
+                    <li><a href='https://bazzite.gg/'>Bazzite</a></li>
+                </ul>
+                <ul>
+                    <p>Standalone</p>
+                    <hr>
+                    <li><a href='https://www.gentoo.org/'>Gentoo</a></li>
+                    <li><a href='https://alpinelinux.org/'>Alpine</a></li>
+                </ul>
+            </div>
+            <hr>
+            <p>Recommended desktops.</p>
             <ul>
-                <p>Choosing a Distro</p>
-                <hr>
-                <li><a href='https://distrochooser.de/'>DISTRO CHOOSER</a></li>
-                <li><a href='https://distrowatch.com/'>DistroWatch</a></li>
+                <li class='best'><a href='https://kde.org/'>KDE</a></li>
+                <li><a href='https://projects.linuxmint.com/cinnamon/'>Cinnamon</a></li>
+                <li><a href='https://www.xfce.org/'>XFCE</a></li>
             </ul>
+            <hr>
+            <p>Recommended programs.</p>
             <ul>
-                <p>Arch</p>
-                <hr>
-                <li><a href='https://artixlinux.org/'>Artix</a></li>
-                <li><a href='https://cachyos.org/'>CachyOS</a></li>
-                <li><a href='https://endeavouros.com/'>EndeavourOS</a></li>
+                <li><a href='https://fishshell.com/'>Fish</a> (Shell)</li>
+                <li><a href='https://github.com/Jguer/yay'>Yay</a> (AUR Helper)</li>
+                <li><a href='https://github.com/winapps-org/winapps'>WinApps</a> (Seamless Windows Virtual Machine Container)</li>
+                <li><a href='https://aur.chaotic.cx/'>Chaotic AUR</a> (AUR Binary Repository)</li>
+                <li><a href='https://pacstall.dev/'>Pacstall</a> (Ubuntu AUR-like Helper)</li>
+                <li><a href='https://zap.srev.in/'>Zap</a> (AppImage Package Manager)</li>
+                <li><a href='https://github.com/Open-Wine-Components/umu-launcher'>UMU</a> (Universal Wine Launcher)</li>
+                <li><a href='https://github.com/DavidoTek/ProtonUp-Qt'>Proton UP</a> (Proton Manager)</li>
+                <li><a href='https://www.winehq.org/'>Wine</a> (Windows Compatibility Layer)</li>
+                <li><a href='https://flatpak.org/'>Flatpak</a> (Universal Package Manager)</li>
+                <li><a href='https://flathub.org/'>Flathub</a> (Flatpak App Repository)</li>
             </ul>
+            <hr>
+            <p>Games for Linux.</p>
             <ul>
-                <p>Debian</p>
-                <hr>
-                <li><a href='https://www.devuan.org/'>Devuan</a></li>
-                <li><a href='https://rhinolinux.org/'>Rhino</a></li>
-                <li class='best'><a href='https://linuxmint.com/'>Linuxmint</a></li>
+                <li><a href='https://freelinuxpcgames.com/'>Free Linux PC Games</a> (Linux Game Piracy)</li>
+                <li><a href='https://archive.org/details/native-linux-games-collection'>Native Linux Games Collection</a> (Native Games & Piracy)</li>
+                <li><a href='https://1337x.to/user/johncena141/'>JC141</a> (Native + Wine) (Game Piracy)</li>
+                <li><a href='https://games.melroy.org/'>Melroy Games</a></li>
+                <li class='best'><a href='https://github.com/TwintailTeam/TwintailLauncher'>Twintail Launcher</a> (Anime Game Launcher)</li>
             </ul>
+            <hr>
+            <p>Recommended forums.</p>
             <ul>
-                <p>Fedora</p>
-                <hr>
-                <li><a href='https://www.fedoraproject.org/'>Fedora</a></li>
-                <li><a href='https://bazzite.gg/'>Bazzite</a></li>
+                <li><a href='https://wiki.archlinux.org/title/Main_page'>Arch Wiki</a></li>
+                <li><a href='https://wiki.gentoo.org/wiki/Main_Page'>Gentoo Wiki</a></li>
+                <li><a href='https://wiki.cachyos.org/'>CachyOS Wiki</a></li>
+                <li><a href='https://howtolinux.vercel.app/'>HowToLinux</a></li>
+                <li><a href='https://fmhy.net/linuxguide'>FMHY Linux</a></li>
             </ul>
+            <hr>
+            <p>
+                Linux software search engines.
+            </p>
             <ul>
-                <p>Standalone</p>
-                <hr>
-                <li><a href='https://www.gentoo.org/'>Gentoo</a></li>
-                <li><a href='https://alpinelinux.org/'>Alpine</a></li>
+                <li><a href='https://cse.google.com/cse?cx=81bd91729fe2a412b'>CSE Google (Linux Software)</a></li>
             </ul>
+            <hr>
+            <p>Return to <a href='index.html'>Senpai Megathread</a></p>
         </div>
-        <hr>
-        <p>Recommended desktops.</p>
-        <ul>
-            <li class='best'><a href='https://kde.org/'>KDE</a></li>
-            <li><a href='https://projects.linuxmint.com/cinnamon/'>Cinnamon</a></li>
-            <li><a href='https://www.xfce.org/'>XFCE</a></li>
-        </ul>
-        <hr>
-        <p>Recommended programs.</p>
-        <ul>
-            <li><a href='https://fishshell.com/'>Fish</a> (Shell)</li>
-            <li><a href='https://github.com/Jguer/yay'>Yay</a> (AUR Helper)</li>
-            <li><a href='https://github.com/winapps-org/winapps'>WinApps</a> (Seamless Windows Virtual Machine Container)</li>
-            <li><a href='https://aur.chaotic.cx/'>Chaotic AUR</a> (AUR Binary Repository)</li>
-            <li><a href='https://pacstall.dev/'>Pacstall</a> (Ubuntu AUR-like Helper)</li>
-            <li><a href='https://zap.srev.in/'>Zap</a> (AppImage Package Manager)</li>
-            <li><a href='https://github.com/Open-Wine-Components/umu-launcher'>UMU</a> (Universal Wine Launcher)</li>
-            <li><a href='https://github.com/DavidoTek/ProtonUp-Qt'>Proton UP</a> (Proton Manager)</li>
-            <li><a href='https://www.winehq.org/'>Wine</a> (Windows Compatibility Layer)</li>
-            <li><a href='https://flatpak.org/'>Flatpak</a> (Universal Package Manager)</li>
-            <li><a href='https://flathub.org/'>Flathub</a> (Flatpak App Repository)</li>
-        </ul>
-        <hr>
-        <p>Games for Linux.</p>
-        <ul>
-            <li><a href='https://freelinuxpcgames.com/'>Free Linux PC Games</a> (Linux Game Piracy)</li>
-            <li><a href='https://archive.org/details/native-linux-games-collection'>Native Linux Games Collection</a> (Native Games & Piracy)</li>
-            <li><a href='https://1337x.to/user/johncena141/'>JC141</a> (Native + Wine) (Game Piracy)</li>
-            <li><a href='https://games.melroy.org/'>Melroy Games</a></li>
-            <li class='best'><a href='https://github.com/TwintailTeam/TwintailLauncher'>Twintail Launcher</a> (Anime Game Launcher)</li>
-        </ul>
-        <hr>
-        <p>Recommended forums.</p>
-        <ul>
-            <li><a href='https://wiki.archlinux.org/title/Main_page'>Arch Wiki</a></li>
-            <li><a href='https://wiki.gentoo.org/wiki/Main_Page'>Gentoo Wiki</a></li>
-            <li><a href='https://wiki.cachyos.org/'>CachyOS Wiki</a></li>
-            <li><a href='https://howtolinux.vercel.app/'>HowToLinux</a></li>
-            <li><a href='https://fmhy.net/linuxguide'>FMHY Linux</a></li>
-        </ul>
-        <hr>
-        <p>
-            Linux software search engines.
-        </p>
-        <ul>
-            <li><a href='https://cse.google.com/cse?cx=81bd91729fe2a412b'>CSE Google (Linux Software)</a></li>
-        </ul>
-        <hr>
-        <p>Return to <a href='index.html'>Senpai Megathread</a></p>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.154/build/three.min.js"></script>
+    <script src='static/background.js'></script>
 </html>

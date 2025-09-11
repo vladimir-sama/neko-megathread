@@ -9,99 +9,104 @@
     </head>
 
     <body>
-        <h1>
-            Programs
-        </h1>
-        <hr>
-        <p>
-            Browsers.
-        </p>
-        <ul>
-            <li class='best'><a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a></li>
-            <li><a href='https://zen-browser.app/'>Zen Browser</a></li>
-            <li><a href='https://floorp.app/'>Floorp</a></li>
-            <li><a href='https://www.opera.com/gx'>Opera GX</a></li>
-        </ul>
-        <hr>
-        <p>
-            Voice chat.
-        </p>
-        <ul>
-            <li><a href='https://www.teamspeak.com/en/'>Teamspeak</a></li>
-            <li class='best'><a href='https://discord.com/'>Discord</a></li>
-            <li><a href='https://revolt.chat/'>Revolt</a></li>
-            <li><a href='https://www.guilded.gg/'>Guilded</a></li>
-        </ul>
-        <hr>
-        <p>
-            Image tools.
-        </p>
-        <ul>
-            <li><a href='https://www.gimp.org/'>GIMP</a></li>
-            <li><a href='https://www.darktable.org/'>Darktable</a></li>
-            <li><a href='https://krita.org/'>Krita</a></li>
-            <li><a href='https://inkscape.org/'>Inkscape</a></li>
-        </ul>
-        <hr>
-        <p>
-            Video & Multimedia & 3D.
-        </p>
-        <ul>
-            <li><a href='https://mpv.io/'>MPV Media Player</a></li>
-            <li><a href='https://kdenlive.org/en/'>Kdenlive</a></li>
-            <li><a href='https://www.shotcut.org/'>Shotcut</a></li>
-            <li><a href='https://jliljebl.github.io/flowblade/'>Flowblade</a></li>
-            <li><a href='https://obsproject.com/'>OBS Studio</a></li>
-            <li><a href='https://natrongithub.github.io/'>Natron</a></li>
-            <li><a href='https://www.blender.org/'>Blender</a></li>
-        </ul>
-        <hr>
-        <p>
-            Audio & Music.
-        </p>
-        <ul>
-            <li><a href='https://tenacityaudio.org/'>Tenacity</a></li>
-            <li><a href='https://lmms.io/'>LMMS</a></li>
-        </ul>
-        <hr>
-        <p>
-            Writing.
-        </p>
-        <ul>
-            <li><a href='https://www.libreoffice.org/'>LibreOffice</a></li>
-            <li><a href='https://obsidian.md/'>Obsidian</a></li>
-            <li><a href='https://notepad-plus-plus.org/'>Notepad++</a></li>
-        </ul>
-        <hr>
-        <p>
-            Developer.
-        </p>
-        <ul>
-            <li class='best'><a href='https://code.visualstudio.com/'>VS Code</a></li>
-            <li><a href='https://zed.dev/'>Zed</a></li>
-            <li><a href='https://pulsar-edit.dev/'>Pulsar</a></li>
-            <li><a href='https://lap.dev/lapce/'>Lapce</a></li>
-            <li><a href='https://godotengine.org/'>Godot</a></li>
-        </ul>
-        <hr>
-        <p>
-            Files.
-        </p>
-        <ul>
-            <li class='best'><a href='https://www.qbittorrent.org/'>QBitTorrent</a></li>
-            <li><a href='https://www.pikatorrent.com/'>PikaTorrent</a></li>
-            <li><a href='https://github.com/BrisklyDev/brisk/'>Brisk</a></li>
-        </ul>
-        <hr>
-        <p>
-            Flashing.
-        </p>
-        <ul>
-            <li class='best'><a href='https://www.ventoy.net/en/index.html'>Ventoy</a></li>
-            <li><a href='https://etcher.balena.io/'>balenaEtcher</a></li>
-            <li><a href='https://rufus.ie/en/'>Rufus</a></li>
-        </ul>
-        <hr>
-        <p>Return to <a href='index.html'>Senpai Megathread</a></p>
+        <canvas id='shader-canvas'></canvas>
+        <div class='ui'>
+            <h1>
+                Programs
+            </h1>
+            <hr>
+            <p>
+                Browsers.
+            </p>
+            <ul>
+                <li class='best'><a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a></li>
+                <li><a href='https://zen-browser.app/'>Zen Browser</a></li>
+                <li><a href='https://floorp.app/'>Floorp</a></li>
+                <li><a href='https://www.opera.com/gx'>Opera GX</a></li>
+            </ul>
+            <hr>
+            <p>
+                Voice chat.
+            </p>
+            <ul>
+                <li><a href='https://www.teamspeak.com/en/'>Teamspeak</a></li>
+                <li class='best'><a href='https://discord.com/'>Discord</a></li>
+                <li><a href='https://revolt.chat/'>Revolt</a></li>
+                <li><a href='https://www.guilded.gg/'>Guilded</a></li>
+            </ul>
+            <hr>
+            <p>
+                Image tools.
+            </p>
+            <ul>
+                <li><a href='https://www.gimp.org/'>GIMP</a></li>
+                <li><a href='https://www.darktable.org/'>Darktable</a></li>
+                <li><a href='https://krita.org/'>Krita</a></li>
+                <li><a href='https://inkscape.org/'>Inkscape</a></li>
+            </ul>
+            <hr>
+            <p>
+                Video & Multimedia & 3D.
+            </p>
+            <ul>
+                <li><a href='https://mpv.io/'>MPV Media Player</a></li>
+                <li><a href='https://kdenlive.org/en/'>Kdenlive</a></li>
+                <li><a href='https://www.shotcut.org/'>Shotcut</a></li>
+                <li><a href='https://jliljebl.github.io/flowblade/'>Flowblade</a></li>
+                <li><a href='https://obsproject.com/'>OBS Studio</a></li>
+                <li><a href='https://natrongithub.github.io/'>Natron</a></li>
+                <li><a href='https://www.blender.org/'>Blender</a></li>
+            </ul>
+            <hr>
+            <p>
+                Audio & Music.
+            </p>
+            <ul>
+                <li><a href='https://tenacityaudio.org/'>Tenacity</a></li>
+                <li><a href='https://lmms.io/'>LMMS</a></li>
+            </ul>
+            <hr>
+            <p>
+                Writing.
+            </p>
+            <ul>
+                <li><a href='https://www.libreoffice.org/'>LibreOffice</a></li>
+                <li><a href='https://obsidian.md/'>Obsidian</a></li>
+                <li><a href='https://notepad-plus-plus.org/'>Notepad++</a></li>
+            </ul>
+            <hr>
+            <p>
+                Developer.
+            </p>
+            <ul>
+                <li class='best'><a href='https://code.visualstudio.com/'>VS Code</a></li>
+                <li><a href='https://zed.dev/'>Zed</a></li>
+                <li><a href='https://pulsar-edit.dev/'>Pulsar</a></li>
+                <li><a href='https://lap.dev/lapce/'>Lapce</a></li>
+                <li><a href='https://godotengine.org/'>Godot</a></li>
+            </ul>
+            <hr>
+            <p>
+                Files.
+            </p>
+            <ul>
+                <li class='best'><a href='https://www.qbittorrent.org/'>QBitTorrent</a></li>
+                <li><a href='https://www.pikatorrent.com/'>PikaTorrent</a></li>
+                <li><a href='https://github.com/BrisklyDev/brisk/'>Brisk</a></li>
+            </ul>
+            <hr>
+            <p>
+                Flashing.
+            </p>
+            <ul>
+                <li class='best'><a href='https://www.ventoy.net/en/index.html'>Ventoy</a></li>
+                <li><a href='https://etcher.balena.io/'>balenaEtcher</a></li>
+                <li><a href='https://rufus.ie/en/'>Rufus</a></li>
+            </ul>
+            <hr>
+            <p>Return to <a href='index.html'>Senpai Megathread</a></p>
+        </div>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.154/build/three.min.js"></script>
+    <script src='static/background.js'></script>
 </html>

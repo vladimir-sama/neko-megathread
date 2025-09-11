@@ -9,17 +9,22 @@
     </head>
 
     <body>
-        <h1>
-            Minecraft Arguments
-        </h1>
-        <hr>
-        <p>
-            Arguments for Java GraalVM EE.
-        </p>
-        <div class='multi-text'>
-            -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -Dgraal.CompilerConfiguration=enterprise
-        </div>
-        <hr>
-        <p>Return to <a href='minecraft.html'>Senpai Megathread Minecraft</a></p>
+        <canvas id='shader-canvas'></canvas>
+        <div class='ui'>
+            <h1>
+                Minecraft Arguments
+            </h1>
+            <hr>
+            <p>
+                Arguments for Java GraalVM EE.
+            </p>
+            <div class='multi-text'>
+                -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -Dgraal.CompilerConfiguration=enterprise
+            </div>
+            <hr>
+            <p>Return to <a href='minecraft.html'>Senpai Megathread Minecraft</a></p>
+        </div> 
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.154/build/three.min.js"></script>
+    <script src='static/background.js'></script>
 </html>

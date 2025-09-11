@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-html {
-    background:url('background.jpg');    
-    background-size: cover;
-    background-attachment: fixed;
+html, body {
+    background-color: black;
     min-height: 100vh;
     height: max-content;
+    margin: 0;
+    padding: 0;
 }
 
-body {
+.ui {
+    position:relative;
+    z-index: 2;
     padding: 2ch;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 300;
+    background-color: #000000e0;
     color: whitesmoke;
     text-shadow: 4px 6px 12px #000000;
-    background-color: #000000f0;
     width: 85%;
     margin: 0 auto;
     min-height: 100vh;
     height: max-content;
+    backdrop-filter: blur(10pt);
+}
+
+#shader-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
 }
 
 h1,
